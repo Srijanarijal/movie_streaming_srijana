@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# 🚀 MOVIE STREAMING APP 🚀
 
-First, run the development server:
+<div align="center">
+
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://semver.org)
+
+</div>
+
+> Simple Movie streaming app, Fetching the data from the api, and showing the selected movie with its banner and details , along with carousel to show the list of other movies
+
+</div>
+
+## 📋 Table of Contents
+
+- 📌 [Project Information](#project-information)
+- 📌 [Setup & Installation](#setup-and-installation)
+- 📌 [Author Information](#author-information)
+
+
+---
+
+## 🔧 Prerequisites
+
+## System Requirements
+- Node.js >= 10.2.x
+## Development Tools
+- Git
+- VS Code or preferred IDE
+- Node Package Manager (npm/yarn)
+
+## 📥 Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/Srijanarijal/movie_streaming_srijana.git
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💻 Run Locally
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Development mode with hot reload
+npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Run tests
+npm run test
 
-## Learn More
+# Build for production
+npm run build
 
-To learn more about Next.js, take a look at the following resources:
+# Start production server
+npm start
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Docker development
+docker-compose up -d
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👤 Author
 
-## Deploy on Vercel
+<p align="center">
+**Srijana Rijal**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[![GitHub](https://img.shields.io/badge/GitHub-%40Srijanarijal-blue?style=flat&logo=github)](https://github.com/Srijanarijal)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[![Email](https://img.shields.io/badge/Email-srijana1888rijal%40gmail.com-red?style=flat&logo=gmail)](mailto:srijana1888rijal@gmail.com)
+</p>
+
+<div align="center">Made with ❤️ and ☕</div>
