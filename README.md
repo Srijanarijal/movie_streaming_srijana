@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 MOVIE STREAMING APP 🚀
+#  MOVIE STREAMING APP 
 
 <div align="center">
 
