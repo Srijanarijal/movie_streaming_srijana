@@ -58,8 +58,8 @@ npm run build
 # Start production server
 npm start
 
-# Docker development
-docker-compose up -d
+#vercel site link
+https://movie-streaming-srijana.vercel.app/
 ```
 
 ## 👤 Author
