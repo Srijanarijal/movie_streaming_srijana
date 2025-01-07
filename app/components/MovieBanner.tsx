@@ -2,7 +2,7 @@
 // app/components/MovieBanner.tsx
 import { Movie } from '../../types';
 
-interface MovieBannerProps {
+interface MovieBannerProps {   // Single movie object to display in the banner.
   movie: Movie;
 }
 
@@ -23,14 +23,15 @@ export default function MovieBanner({ movie }: MovieBannerProps) {
               {movie.title}
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-gray-200 mb-2 sm:mb-4 max-w-xl md:max-w-2xl">
-              {movie.overview}
+              {movie.overview}  {/* Short synopsis of the movie */}
             </p>
+            {/* Metadata badges (rating and release date) */}
             <div className="flex gap-2 sm:gap-4">
               <span className="text-xs sm:text-sm bg-yellow-400 text-black px-2 sm:px-4 py-1 rounded-full">
-                IMDB: {movie.vote_average.toFixed(1)}
+                IMDB: {movie.vote_average.toFixed(1)}   {/* Display rating rounded to 1 decimal */}
               </span>
               <span className="text-xs sm:text-sm bg-white/20 text-white px-2 sm:px-4 py-1 rounded-full">
-                Released: {new Date(movie.release_date).toLocaleDateString()}
+                Released: {new Date(movie.release_date).toLocaleDateString()}    {/* Format the release date for display */}
               </span>
             </div>
           </div>
